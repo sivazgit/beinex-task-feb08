@@ -1,0 +1,26 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.navbar.navbar-expand-lg{
+    padding: 15px;
+    background-color: #003284;
+    .container{
+        ul{
+            margin: auto;
+            li{
+                a{
+                    color: $color-white;
+                    &:hover{
+                        text-decoration: underline;
+                        color: $color-bcontent;
+
+                        #a1{
+                            cursor: pointer;
+                        }
+                    }                   
+                }
+            }
+        }
+    }
+}
